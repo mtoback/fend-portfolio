@@ -503,7 +503,7 @@ function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
 
-  var items = document.querySelectorAll('.mover');
+  var items = document.getElementsByClassName('mover');
   var phases = [Math.sin((document.body.scrollTop / 1250) + 0),
                 Math.sin((document.body.scrollTop / 1250) + 1),
                 Math.sin((document.body.scrollTop / 1250) + 2),

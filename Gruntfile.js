@@ -76,6 +76,7 @@ module.exports = function(grunt){
             'dist/project-2048.html': 'project-2048.html',
             'dist/project-webperf.html': 'project-webperf.html',
             'dist/project-mobile.html': 'project-mobile.html',
+            'dist/README.md': 'README.md',
             'dist/views/pizza.html': 'views/pizza.html'
           }
         },
