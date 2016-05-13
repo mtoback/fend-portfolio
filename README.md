@@ -1,5 +1,22 @@
 # Website Optimization Project
 
+## installation requirements
+
+1. Install [node.js and npm](https://docs.npmjs.com/getting-started/installing-node) if required.
+1. Install either [imageMagick or graphicsMagick](https://www.npmjs.com/package/grunt-responsive-images). I tested it with imageMagick.
+1. run "npm install" in the home directory against package.json this will install the following packages:
++  grunt 1.0.1
++ grunt-contrib-clean 1.0.0
++ grunt-contrib-concat 1.0.1
++ grunt-contrib-cssmin 1.0.1
++ grunt-contrib-htmlmin 1.4.0
++ grunt-contrib-imagemin 1.0.0
++ grunt-contrib-jshint 1.0.0
++ grunt-contrib-uglify 1.0.1
++ grunt-contrib-watch 1.0.0
++ grunt-responsive-images 0.1.7
++ load-grunt-tasks 3.5.0
+
 ## How to update site
 
 run grunt on top of site. Will generate dist directory for production site
