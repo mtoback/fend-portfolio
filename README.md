@@ -26,6 +26,11 @@ views/pizza.html
 views/main.js
 1. perform initial calculation of phase in updatePositions outside of loop
 2. change from use of querySelectorAll to getElementsByClassName
+
+## Notes
+
+I am seeing some "jank" on the site, but it seems to be related to the measuring tools. Maybe Heisenberg was right :-)
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
