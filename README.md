@@ -2,6 +2,8 @@
 
 ## How to update site
 
+run grunt on top of site. Will generate dist directory for production site
+
 ## Changes made
 
 all html minimized by grunt-contrib-htmlmin
