@@ -42,7 +42,8 @@ views/pizza.html
 
 views/main.js
 1. perform initial calculation of phase in updatePositions outside of loop
-2. change from use of querySelectorAll to getElementsByClassName
+1. change from use of querySelectorAll to getElementsByClassName
+1. basicLeft was a ruse, it was just a function based on the ith item
 
 ## Notes
 
